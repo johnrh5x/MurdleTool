@@ -1,2 +1,2 @@
 # MurdleTool
-A Swing-based interactive grid for solving Murdle puzzles.  Executable jar file compiled for Java 8 for maximum compatibilty.
+A Swing-based interactive grid for solving Murdle puzzles.  This is a Java program, so to run it you'll need a Java Runtime Environment (JRE) installed on your PC.  JREs for Windows and Macintosh are available from Oracle and from java.com.  JREs for Linux should be available from your distribution's repository.  The executable JAR file in this repository, MurdleSolver.jar, should work on any operating system and with any JRE version 8 or higher.  I regret that due to file size limits on uploads I cannot provide a version of the program packaged with a JRE.
