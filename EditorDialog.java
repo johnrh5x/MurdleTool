@@ -38,9 +38,9 @@ public class EditorDialog extends JDialog implements Constants {
 		super(owner,"Editor",true);
 		getContentPane().setLayout(new GridBagLayout());
 		editPanel = new JPanel(new GridBagLayout());
-		labels = new JLabel[CATEGORIES.length];
-		fields = new JTextField[CATEGORIES.length];
-		for (int i = 0; i < CATEGORIES.length; i++) {
+		labels = new JLabel[MAX_ELEMENTS];
+		fields = new JTextField[MAX_ELEMENTS];
+		for (int i = 0; i < MAX_ELEMENTS; i++) {
 			labels[i] = new JLabel();
 			fields[i] = new JTextField(20);
 		}
